@@ -13,9 +13,9 @@
 }
 .container #blank{
     height:100px;
-    line-height: 100px;
-    width:500px;
-    font-size: 40px;
+    line-height:100px;
+    width:350px;
+    font-size:30px;
     background-color: #a40606;
     background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
     border-radius:16px;
