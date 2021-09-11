@@ -16,7 +16,7 @@ let hours=Math.floor((diff % (1000*60*60*24))/(1000*60*60));
 let min=Math.floor((diff % (1000*60*60))/(1000*60));
 let sec=Math.floor((diff % (1000*60))/(1000));
 
-if(dest===dest1){
+if(dest!=dest1){
     document.getElementById("blank").innerHTML=days +"Day "+ hours +"Hour "+min+"Min "+sec +"sec";
 }
 else{
